@@ -38,4 +38,4 @@ grouped = group_by(arranged,subject,activity)
 tidy_data = summarise_each(grouped,funs(mean))
 
 ## Output the tidy_data:
-write.table(tidy_data,"tidy_data.csv",row.name=FALSE)
+write.table(tidy_data,"tidy_data.txt",row.name=FALSE)
