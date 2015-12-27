@@ -1,4 +1,5 @@
-# Getting and Cleaning Data course project, 2015
+## Getting and Cleaning Data course project, 2015
+# This script assumes that the data is in the subfolder "UCI HAR Dataset" (that is, this script is one level up)
 
 ## Phase 1 - read and combine test/train data and name the columns
 # Read the data
