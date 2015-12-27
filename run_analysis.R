@@ -37,5 +37,5 @@ arranged = arrange(phase3,subject) # arrange by subject, just so the result look
 grouped = group_by(arranged,subject,activity)
 tidy_data = summarise_each(grouped,funs(mean))
 
-## Optional - output the tidy_data:
-#write.table(tidy_data,"tidy_data.csv",row.name=FALSE)
+## Output the tidy_data:
+write.table(tidy_data,"tidy_data.csv",row.name=FALSE)
