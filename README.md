@@ -9,6 +9,7 @@ Smartlab - Non Linear Complex Systems Laboratory, DITEN - Università degli Stud
 This Readme file describes the R scripts run_analysis.R, which also contains detailed comments. For the script to work, place it in your working directory, and have the orignal data set in a subfolder named "UCI HAR Dataset".
 
 This R script processes the data set as follows - 
+
 1. The training and test data sets were merged, for both x, y and subject files.
 2. The variables of the combined x data set were named based on the labels in the features.txt file.
 3. The "activity" variable was changed from an index to names, based on the labels in the "activity_labels.txt" file.
